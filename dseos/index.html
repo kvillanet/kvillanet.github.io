@@ -1,1187 +1,903 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title -->
-    <title>Dseos Travel</title>
-
-    <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
-
-    <!-- Stylesheet -->
-    <link rel="stylesheet" href="style.css">
-
-</head>
-
-<body>
-    <!-- Preloader -->
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <div class="lds-ellipsis">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-
-    <!-- ##### Header Area Start ##### -->
-    <header class="header-area">
-        <!-- Navbar Area -->
-        <div class="newsbox-main-menu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container-fluid">
-                    <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="newsboxNav">
-
-                        <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/logo.png" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
-                        </div>
-
-                        <!-- Menu -->
-                        <div class="classy-menu">
-
-                            <!-- Close Button -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Nav Start -->
-                            <div class="classynav">
-                                <ul>
-                                    <li><a href="#">Destinos</a>
-                                        <div class="megamenu">
-                                            <ul class="single-mega cn-col-4">
-                                                <li class="title">Perú</li>
-                                                <li><a href="#">Lima</a></li>
-                                                <li><a href="#">Cuzco</a></li>
-                                                <li><a href="#">Arequipa</a></li>
-                                                <li><a href="#">Amazonas</a></li>
-                                                <li><a href="#">Cajamarca</a></li>
-                                                <li><a href="#">Iquitos</a></li>
-                                                <li><a href="#">Ica</a></li>
-                                                <li><a href="#">Lugares Turisticos</a></li>
-                                          
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li class="title">Európa</li>
-                                                <li><a href="#">Algeria</a></li>
-                                                <li><a href="#">Angola</a></li>
-                                                <li><a href="#">Benin</a></li>
-                                                <li><a href="#">Botswana</a></li>
-                                                <li><a href="#">Burkina Faso</a></li>
-                                                <li><a href="#">Burundi</a></li>
-                                                <li><a href="#">Cameroon</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li class="title">Asia</li>
-                                                <li><a href="#">Bangladesh</a></li>
-                                                <li><a href="#">Chaina</a></li>
-                                                <li><a href="#">India</a></li>
-                                                <li><a href="#">Afganistan</a></li>
-                                                <li><a href="#">Sri Lanka</a></li>
-                                                <li><a href="#">Nepal</a></li>
-                                                <li><a href="#">Bhutan</a></li>
-                                            </ul>
-                                            <ul class="single-mega cn-col-4">
-                                                <li class="title">USA &amp; Canada</li>
-                                                <li><a href="#">California</a></li>
-                                                <li><a href="#">Florida</a></li>
-                                                <li><a href="#">Alabama</a></li>
-                                                <li><a href="#">New Yorks</a></li>
-                                                <li><a href="#">Texas</a></li>
-                                                <li><a href="#">Lowa</a></li>
-                                                <li><a href="#">Montana</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li><a href="#">Noticias</a></li>
-                                    <li><a href="#">Conócenos</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.html">Inicio</a></li>
-                                            <li><a href="catagory.html">Quienes somos</a></li>
-                                            <li><a href="single-post.html">Terminos y Condiciones</a></li>
-                                            <li><a href="contact.html">Contacto</a></li>
-                                            <li><a href="elements.html">Ofertas</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Ofertas</a>
-                                        <ul class="dropdown">
-                                            <li><a href="#">España</a></li>
-                                            <li><a href="#">Perú</a></li>
-                                            <li><a href="#">Colombia</a></li>
-                                            <li><a href="#">Ecuador</a></li>
-                                            <li><a href="#">Brazil</a></li>
-                                            <li><a href="#">Chile</a></li>
-                                            <li><a href="#">Cuzco</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Multimedia</a></li>
-                                </ul>
-
-                                <!-- Header Add Area -->
-                                <div class="header-add-area">
-                                    <a href="#">
-                                       <img src="img/bg-img/add.png" alt="">
-                                    </a>
-                                </div>
-                            </div>
-                            <!-- Nav End -->
-
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ##### Header Area End ##### -->
-
-    <!-- ##### Breaking News Area Start ##### -->
-    <section class="breaking-news-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Breaking News Widget -->
-                    <div class="breaking-news-ticker d-flex flex-wrap align-items-center">
-                        <div class="title">
-                            <h6>Ofertas</h6>
-                        </div>
-                        <div id="breakingNewsTicker" class="ticker">
-                            <ul>
-                                <li><a href="#">PAQUETE DE TURISMO A LIMA</a></li>
-                                <li><a href="#">VUELOS BARATOS A MADRID</a></li>
-                                <li><a href="#">VUELOS NACIONALES EN OFERTA!!!</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Breaking News Area End ##### -->
-
-    <!-- ##### Hero Area Start ##### -->
-    <div class="hero-area">
-        <!-- Hero Post Slides -->
-        <div class="hero-post-slides owl-carousel">
-
-            <!-- Single Slide -->
-            <div class="single-slide">
-                <div class="container-fluid">
-                    <div class="row">
-                        <!-- Single Blog Post Area -->
-                        <div class="col-12 col-md-6">
-                            <div class="single-blog-post style-1" data-animation="fadeInUpBig" data-delay="100ms" data-duration="1000ms">
-                                <!-- Blog Thumbnail -->
-                                <div class="blog-thumbnail bg-overlay">
-                                    <a href="#"><img src="img/bg-img/1.jpg" alt=""></a>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">Consultar precios</span>
-                                    <a href="#" class="post-title">NUEVA WORK</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-12 col-md-6">
-                            <!-- Single Blog Post Area -->
-                            <div class="single-blog-post style-1 mb-30" data-animation="fadeInUpBig" data-delay="300ms" data-duration="1000ms">
-                                <!-- Blog Thumbnail -->
-                                <div class="blog-thumbnail bg-overlay">
-                                    <a href="#"><img src="img/bg-img/2.jpg" alt=""></a>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">Oferta especial</span>
-                                    <a href="#" class="post-title">Playas turisticas</a>
-                                </div>
-                            </div>
-                            <!-- Single Blog Post Area -->
-                            <div class="single-blog-post style-1" data-animation="fadeInUpBig" data-delay="500ms" data-duration="1000ms">
-                                <!-- Blog Thumbnail -->
-                                <div class="blog-thumbnail bg-overlay">
-                                    <a href="#"><img src="img/bg-img/3.jpg" alt=""></a>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">Ideal para nuevos esposos</span>
-                                    <a href="#" class="post-title">VIAJE DE LUNA DE MIEL</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Single Slide -->
-            <div class="single-slide">
-                <div class="container-fluid">
-                    <div class="row">
-                        <!-- Single Blog Post Area -->
-                        <div class="col-12 col-md-6">
-                            <div class="single-blog-post style-1" data-animation="fadeInUpBig" data-delay="100ms" data-duration="1000ms">
-                                <!-- Blog Thumbnail -->
-                                <div class="blog-thumbnail bg-overlay">
-                                    <a href="#"><img src="img/bg-img/1.jpg" alt=""></a>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">Ver ofertas para viaje de vacaciones </span>
-                                    <a href="#" class="post-title">VIAJE DE TURISMO</a>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="col-12 col-md-6">
-                            <!-- Single Blog Post Area -->
-                            <div class="single-blog-post style-1 mb-30" data-animation="fadeInUpBig" data-delay="300ms" data-duration="1000ms">
-                                <!-- Blog Thumbnail -->
-                                <div class="blog-thumbnail bg-overlay">
-                                    <a href="#"><img src="img/bg-img/2.jpg" alt=""></a>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">Viajes super baratos</span>
-                                    <a href="#" class="post-title">ELIGE TU DESTINO</a>
-                                </div>
-                            </div>
-                            <!-- Single Blog Post Area -->
-                            <div class="single-blog-post style-1" data-animation="fadeInUpBig" data-delay="500ms" data-duration="1000ms">
-                                <!-- Blog Thumbnail -->
-                                <div class="blog-thumbnail bg-overlay">
-                                    <a href="#"><img src="img/bg-img/3.jpg" alt=""></a>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">Destinos para viaje de luna de miel </span>
-                                    <a href="#" class="post-title">LUNA DE MIEL</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- ##### Hero Area End ##### -->
-
-    <!-- ##### Intro News Area Start ##### -->
-    <section class="intro-news-area section-padding-100-0 mb-70">
-        <div class="container">
-            <div class="row justify-content-center">
-                <!-- Intro News Tabs Area -->
-                <div class="col-12 col-lg-8">
-                    <div class="intro-news-tab">
-
-                        <!-- Intro News Filter -->
-                        <div class="intro-news-filter d-flex justify-content-between">
-                            <h6>Destinos mas populares</h6>
-                            <nav>
-                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                    <a class="nav-item nav-link active" id="nav1" data-toggle="tab" href="#nav-1" role="tab" aria-controls="nav-1" aria-selected="true">Populares</a>
-                                    <a class="nav-item nav-link" id="nav2" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-2" aria-selected="false">Playas</a>
-                                    <a class="nav-item nav-link" id="nav3" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-3" aria-selected="false">International</a>
-                                    <a class="nav-item nav-link" id="nav4" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-4" aria-selected="false">Local</a>
-                                </div>
-                            </nav>
-                        </div>
-
-                        <div class="tab-content" id="nav-tabContent">
-
-                            <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav1">
-                                <div class="row">
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post style-2 mb-5">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/14.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 07, 2019</span>
-                                                <a href="#" class="post-title">Iquitos</a>
-                                                <a href="#" class="post-author">Lugares turísticos</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post style-2 mb-5">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/15.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 06, 2019</span>
-                                                <a href="#" class="post-title">Lima</a>
-                                                <a href="#" class="post-author">Playas Turisticas</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/16.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 09, 2019</span>
-                                                <a href="#" class="post-title">Madrid</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/17.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/18.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/19.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/20.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/21.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav2">
-                                <div class="row">
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post style-2 mb-5">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/4.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
-                                                <a href="#" class="post-author">By Michael Smith</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post style-2 mb-5">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/5.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
-                                                <a href="#" class="post-author">By Michael Smith</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/16.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/17.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/18.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/19.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/20.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/21.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav3">
-                                <div class="row">
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post style-2 mb-5">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/6.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
-                                                <a href="#" class="post-author">By Michael Smith</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post style-2 mb-5">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/7.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
-                                                <a href="#" class="post-author">By Michael Smith</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/16.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/17.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/18.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/19.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/20.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/21.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav4">
-                                <div class="row">
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post style-2 mb-5">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/8.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
-                                                <a href="#" class="post-author">By Michael Smith</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post style-2 mb-5">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/9.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis</a>
-                                                <a href="#" class="post-author">By Michael Smith</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/16.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/17.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Nearly a quarter have no emergency savings</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/18.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/19.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Top bitcoin exchange says over $30 million stolen</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/20.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Single News Area -->
-                                    <div class="col-12 col-sm-6">
-                                        <div class="single-blog-post d-flex style-4 mb-30">
-                                            <!-- Blog Thumbnail -->
-                                            <div class="blog-thumbnail">
-                                                <a href="#"><img src="img/bg-img/21.jpg" alt=""></a>
-                                            </div>
-
-                                            <!-- Blog Content -->
-                                            <div class="blog-content">
-                                                <span class="post-date">June 20, 2018</span>
-                                                <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Sidebar Widget -->
-                <div class="col-12 col-sm-9 col-md-6 col-lg-4">
-                    <div class="sidebar-area">
-
-                        <!-- Newsletter Widget -->
-                        <div class="single-widget-area newsletter-widget mb-30">
-                            <h4>Suscribete a nuestra revista</h4>
-                            <form action="#" method="post">
-                                <input type="email" name="nl-email" id="nlemail" placeholder="Your E-mail">
-                                <button type="submit" class="btn newsbox-btn w-100">Subscribete</button>
-                            </form>
-                            <p class="mt-30">Recibe nuevas ofertas y precios especiales.</p>
-                        </div>
-
-                        <!-- Add Widget -->
-                        <div class="single-widget-area add-widget mb-30">
-                            <a href="#">
-                                <img src="img/bg-img/add3.png" alt="">
-                            </a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Intro News Area End ##### -->
-
-    <!-- ##### Video Area Start ##### -->
-    <section class="video-area bg-img bg-overlay bg-fixed" style="background-image: url(img/bg-img/10.jpg);">
-        <div class="container">
-            <div class="row">
-                <!-- Featured Video Area -->
-                <div class="col-12">
-                    <div class="featured-video-area d-flex align-items-center justify-content-center">
-                        <div class="video-content text-center">
-                            <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-                            <span class="published-date">June 20, 2018</span>
-                            <h3 class="video-title">Traffic Problems in Time Square</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Video Slideshow -->
-        <div class="video-slideshow py-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <!-- Video Slides -->
-                        <div class="video-slides owl-carousel">
-
-                            <!-- Single News Area -->
-                            <div class="single-blog-post style-3">
-                                <!-- Blog Thumbnail -->
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img src="img/bg-img/11.jpg" alt=""></a>
-                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">June 20, 2018</span>
-                                    <p class="post-title">Elon Musk: Tesla worker admitted to sabotage</p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
-                                </div>
-                            </div>
-
-                            <!-- Single News Area -->
-                            <div class="single-blog-post style-3">
-                                <!-- Blog Thumbnail -->
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img src="img/bg-img/12.jpg" alt=""></a>
-                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">June 20, 2018</span>
-                                    <p class="post-title">Rachel Sm ith breaks down while discussing border crisis </p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
-                                </div>
-                            </div>
-
-                            <!-- Single News Area -->
-                            <div class="single-blog-post style-3">
-                                <!-- Blog Thumbnail -->
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img src="img/bg-img/13.jpg" alt=""></a>
-                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">June 20, 2018</span>
-                                    <p class="post-title">Dow falls 287 points as trade war fears escalate</p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
-                                </div>
-                            </div>
-
-                            <!-- Single News Area -->
-                            <div class="single-blog-post style-3">
-                                <!-- Blog Thumbnail -->
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img src="img/bg-img/11.jpg" alt=""></a>
-                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">June 20, 2018</span>
-                                    <p class="post-title">Elon Musk: Tesla worker admitted to sabotage</p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
-                                </div>
-                            </div>
-
-                            <!-- Single News Area -->
-                            <div class="single-blog-post style-3">
-                                <!-- Blog Thumbnail -->
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img src="img/bg-img/12.jpg" alt=""></a>
-                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">June 20, 2018</span>
-                                    <p class="post-title">Rachel Sm ith breaks down while discussing border crisis </p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
-                                </div>
-                            </div>
-
-                            <!-- Single News Area -->
-                            <div class="single-blog-post style-3">
-                                <!-- Blog Thumbnail -->
-                                <div class="blog-thumbnail">
-                                    <a href="#"><img src="img/bg-img/13.jpg" alt=""></a>
-                                    <a href="#" class="video-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
-                                </div>
-
-                                <!-- Blog Content -->
-                                <div class="blog-content">
-                                    <span class="post-date">June 20, 2018</span>
-                                    <p class="post-title">Dow falls 287 points as trade war fears escalate</p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ##### Video Area End ##### -->
-
-    <!-- ##### Top News Area Start ##### -->
-    <div class="top-news-area section-padding-100">
-        <div class="container">
-            <div class="row">
-
-                <!-- Single News Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-blog-post style-2 mb-5">
-                        <!-- Blog Thumbnail -->
-                        <div class="blog-thumbnail">
-                            <a href="#"><img src="img/bg-img/4.jpg" alt=""></a>
-                        </div>
-
-                        <!-- Blog Content -->
-                        <div class="blog-content">
-                            <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
-                            <a href="#" class="post-author">By Michael Smith</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single News Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-blog-post style-2 mb-5">
-                        <!-- Blog Thumbnail -->
-                        <div class="blog-thumbnail">
-                            <a href="#"><img src="img/bg-img/5.jpg" alt=""></a>
-                        </div>
-
-                        <!-- Blog Content -->
-                        <div class="blog-content">
-                            <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis </a>
-                            <a href="#" class="post-author">By Michael Smith</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single News Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-blog-post style-2 mb-5">
-                        <!-- Blog Thumbnail -->
-                        <div class="blog-thumbnail">
-                            <a href="#"><img src="img/bg-img/6.jpg" alt=""></a>
-                        </div>
-
-                        <!-- Blog Content -->
-                        <div class="blog-content">
-                            <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
-                            <a href="#" class="post-author">By Michael Smith</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single News Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-blog-post style-2 mb-5">
-                        <!-- Blog Thumbnail -->
-                        <div class="blog-thumbnail">
-                            <a href="#"><img src="img/bg-img/7.jpg" alt=""></a>
-                        </div>
-
-                        <!-- Blog Content -->
-                        <div class="blog-content">
-                            <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Elon Musk: Tesla worker admitted to sabotage</a>
-                            <a href="#" class="post-author">By Michael Smith</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single News Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-blog-post style-2 mb-5">
-                        <!-- Blog Thumbnail -->
-                        <div class="blog-thumbnail">
-                            <a href="#"><img src="img/bg-img/8.jpg" alt=""></a>
-                        </div>
-
-                        <!-- Blog Content -->
-                        <div class="blog-content">
-                            <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Rachel Sm ith breaks down while discussing border crisis </a>
-                            <a href="#" class="post-author">By Michael Smith</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Single News Area -->
-                <div class="col-12 col-sm-6 col-lg-4">
-                    <div class="single-blog-post style-2 mb-5">
-                        <!-- Blog Thumbnail -->
-                        <div class="blog-thumbnail">
-                            <a href="#"><img src="img/bg-img/9.jpg" alt=""></a>
-                        </div>
-
-                        <!-- Blog Content -->
-                        <div class="blog-content">
-                            <span class="post-date">June 20, 2018</span>
-                            <a href="#" class="post-title">Dow falls 287 points as trade war fears escalate</a>
-                            <a href="#" class="post-author">By Michael Smith</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12">
-                    <div class="load-more-button text-center">
-                        <a href="#" class="btn newsbox-btn">Load More</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <!-- ##### Top News Area End ##### -->
-
-    <!-- ##### Add Area Start ##### -->
-    <div class="big-add-area mb-100">
-        <div class="container-fluid">
-            <a href="#"><img src="img/bg-img/add2.png" alt=""></a>
-        </div>
-    </div>
-    <!-- ##### Add Area End ##### -->
-
-    <!-- ##### Footer Area Start ##### -->
-    <footer class="footer-area">
-        <!-- Footer Logo -->
-        <div class="footer-logo mb-100">
-            <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
-        </div>
-        <!-- Footer Content -->
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-content text-center">
-                        <!-- Footer Nav -->
-                        <div class="footer-nav">
-                            <ul>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Closed Captioning</a></li>
-                                <li><a href="#">Site Map</a></li>
-                            </ul>
-                        </div>
-                        <!-- Social Info -->
-                        <div class="footer-social-info">
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                            <a href="#" data-toggle="tooltip" data-placement="top" title="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-
-                        <p class="mb-15">Nullam lacinia ex eleifend orci porttitor, suscipit interdum augue condimentum. Etiam pretium turpis eget nibh laoreet iaculis. Proin ac urna at lectus volutpat lobortis. Vestibulum venenatis iaculis diam vitae lobortis. Donec tincidunt viverra elit, sed consectetur est pr etium ac. Mauris nec mauris tellus. </p>
-
-                        <!-- Copywrite Text -->
-                        <p class="copywrite-text"><a href="#">
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!-- ##### Footer Area Start ##### -->
-
-    <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script>
-</body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Dseos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+  <!-- poner destinos a Israel, eropa, circo de roma torre eifel, El reloj de londres, muro de berlin, -->
+    <!-- el parque rojo de Lenin rusia, cuzco, circuitro tirra santa israel -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+
+
+	<body>
+		
+	<div class="colorlib-loader"></div>
+
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-4">
+							<!-- <p class="site">Reserva tus vuelos</p> -->
+							<img src="images/logo_dseos.png"width="70%" height="70%">
+						</div>
+						<div class="col-xs-8 text-right">
+							<p class="num">whatsapp: +51971410090 - +51975585058</p>
+							<ul class="colorlib-social">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-linkedin"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-2">
+							<!-- <div id="colorlib-logo"><a href="index.html">Hacemos que tus sueños se hagan realidad</a></div> -->
+						</div>
+						<div class="col-xs-10 text-right menu-1">
+							<ul>
+								<li class="active"><a href="index.html">Inicio</a></li>
+<!-- 								<li class="has-dropdown">
+									<a href="rooms-suites.html">Rooms</a>
+									<ul class="dropdown">
+										<li><a href="#">Web Design</a></li>
+										<li><a href="#">eCommerce</a></li>
+										<li><a href="#">Branding</a></li>
+										<li><a href="#">API</a></li>
+									</ul>
+								</li>
+								<li><a href="dining-bar.html">Dining &amp; Bar</a></li>
+								<li><a href="aminities.html">Aminities</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="about.html">About</a></li> -->
+								<li><a href="contact.html">Contacto</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
 
+		
+		<aside id="colorlib-hero">
+			<div class="flexslider">
+				<ul class="slides">
+			   	<li style="background-image: url(images/img_bg_5.jpg);">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   					<h2>Bienvenido...</h2>
+				   					<h1>Hacemos que tus sueños se hagan realidad.</h1>
+										<p><a class="btn btn-primary btn-demo" href="#"></i>Ver Destinos</a> <a class="btn btn-primary btn-learn">Registrate</a></p>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			   	<li style="background-image: url(images/img_bg_1.jpg);">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   					<h2>Descubre &amp; Disfruta</h2>
+				   					<h1>A precios rebajados</h1>
+										<p><a class="btn btn-primary btn-demo" href="#"></i>Ver Destinos</a> <a class="btn btn-primary btn-learn">Registrate</a></p>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			   	<li style="background-image: url(images/img_bg_3.jpg);">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluids">
+			   			<div class="row">
+				   			<div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   					<h2>Mas fácil</h2>
+				   					<h1>Descubre lo cómodo que es viajar</h1>
+										<p><a class="btn btn-primary btn-demo" href="#"></i>Ver Destinos</a> <a class="btn btn-primary btn-learn">Registrate</a></p>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>
+			   	<li style="background-image: url(images/img_bg_4.jpg);">
+			   		<div class="overlay"></div>
+			   		<div class="container-fluid">
+			   			<div class="row">
+				   			<div class="col-md-6 col-sm-12 col-md-offset-3 slider-text">
+				   				<div class="slider-text-inner text-center">
+				   					<h2>Registrate &amp; te daremos la mejor oferta</h2>
+				   					<h1>Comienza</h1>
+										<p><a class="btn btn-primary btn-demo" href="#"></i>Ver Destinos</a> <a class="btn btn-primary btn-learn">Registrate</a></p>
+				   				</div>
+				   			</div>
+				   		</div>
+			   		</div>
+			   	</li>	   	
+			  	</ul>
+		  	</div>
+		</aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="colorlib-rooms" class="colorlib-light-grey">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-4 room-wrap animate-box">
+						<a href="images/room-1.jpg" class="room image-popup-link" style="background-image: url(images/room-1.jpg);"></a>
+						<div class="desc text-center">
+							<h3><a href="rooms-suites.html">Aceptamos todo tipo de targetas</a></h3>
+							<ul>
+								<li><i class="icon-check"></i>Targetas de Débito</li>
+								<li><i class="icon-check"></i>Targetas de Crédito</li>
+							
+							</ul>
+							<p><a class="btn btn-primary">Compra ahora!</a></p>
+						</div>
+					</div>
+
+
+
+					<div class="col-md-4 room-wrap animate-box">
+						<a href="images/room-1.jpg" class="room image-popup-link" style="background-image: url(images/room-2.jpg);"></a>
+						<div class="desc text-center">
+							<h3><a href="rooms-suites.html">Ahora puedes pagar con PayPal</a></h3>
+							<ul>
+								<li><i class="icon-check"></i>Más Seguro</li>
+								<li><i class="icon-check"></i>Más Rápido</li>
+							
+							</ul>
+							<p><a class="btn btn-primary">¿Como pagar?</a></p>
+						</div>
+					</div>
+
+
+
+					<div class="col-md-4 room-wrap animate-box">
+						<a href="images/room-1.jpg" class="room image-popup-link" style="background-image: url(images/room-3.jpg);"></a>
+						<div class="desc text-center">
+							<h3><a href="rooms-suites.html">Comunicación instantánea</a></h3>
+							<ul>
+								<li><i class="icon-check"></i>Whatsapp</li>
+								<li><i class="icon-check"></i>Messenger</li>
+							
+							</ul>
+							<p><a class="btn btn-primary">Comunícate Ahora!</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!--  
+
+		<div id="colorlib-reservation">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 search-wrap">
+						<form method="post" class="colorlib-form">
+		              	<div class="row">
+		                <div class="col-md-3">
+		                  <div class="form-group">
+		                    <label for="date">Check-in:</label>
+		                    <div class="form-field">
+		                      <i class="icon icon-calendar2"></i>
+		                      <input type="text" id="date" class="form-control date" placeholder="Check-in date">
+		                    </div>
+		                  </div>
+		                </div>
+		                <div class="col-md-3">
+		                  <div class="form-group">
+		                    <label for="date">Check-out:</label>
+		                    <div class="form-field">
+		                      <i class="icon icon-calendar2"></i>
+		                      <input type="text" id="date" class="form-control date" placeholder="Check-out date">
+		                    </div>
+		                  </div>
+		                </div>
+		                <div class="col-md-2">
+		                  <div class="form-group">
+		                    <label for="adults">Adults</label>
+		                    <div class="form-field">
+		                      <i class="icon icon-arrow-down3"></i>
+		                      <select name="people" id="people" class="form-control">
+		                        <option value="#">1</option>
+		                        <option value="#">2</option>
+		                        <option value="#">3</option>
+		                        <option value="#">4</option>
+		                        <option value="#">5+</option>
+		                      </select>
+		                    </div>
+		                  </div>
+		                </div>
+		                <div class="col-md-2">
+		                  <div class="form-group">
+		                    <label for="children">Children</label>
+		                    <div class="form-field">
+		                      <i class="icon icon-arrow-down3"></i>
+		                      <select name="people" id="people" class="form-control">
+		                        <option value="#">1</option>
+		                        <option value="#">2</option>
+		                        <option value="#">3</option>
+		                        <option value="#">4</option>
+		                        <option value="#">5+</option>
+		                      </select>
+		                    </div>
+		                  </div>
+		                </div>
+		                <div class="col-md-2">
+		                  <input type="submit" name="submit" id="submit" value="Search" class="btn btn-primary btn-block">
+		                </div>
+		              </div>
+		            </form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+-->
+
+
+
+
+		<div id="colorlib-services">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 animate-box text-center">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-reception"></i>
+							</span>
+							<h3> Desde su oficina</h3>
+							<p>Separa tus vuelos en cualquier momento, escribenos  al  +51971410090 </p>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box text-center">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-herbs"></i>
+							</span>
+							<h3>Comodidad</h3>
+							<p>Le damos las mejores opciones para que su viaje sea comodo.</p>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box text-center">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-car"></i>
+							</span>
+							<h3>Servicio de Guia</h3>
+							<p>Le damos los destinos y también una asesoría par que pueda movilizarse.</p>
+						</div>
+					</div>
+					<div class="col-md-3 animate-box text-center">
+						<div class="services">
+							<span class="icon">
+								<i class="flaticon-cheers"></i>
+							</span>
+							<h3>Vuelos Inmediatos</h3>
+							<p>Las mejores aerolineas le atenderan. Disfrute su vuelo.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+<!-- Esa parse son para hoteles -->
+<!-- 		<div id="colorlib-rooms" class="colorlib-light-grey">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
+						<h2>Rooms &amp; Suites</h2>
+						<p>We love to tell our successful far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box">
+						<div class="owl-carousel owl-carousel2">
+							<div class="item">
+								<a href="images/room-1.jpg" class="room image-popup-link" style="background-image: url(images/room-1.jpg);"></a>
+								<div class="desc text-center">
+									<span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
+									<h3><a href="rooms-suites.html">Suite</a></h3>
+									<p class="price">
+										<span class="currency">$</span>
+										<span class="price-room">99</span>
+										<span class="per">/ per night</span>
+									</p>
+									<ul>
+										<li><i class="icon-check"></i> Only 10 rooms are available</li>
+										<li><i class="icon-check"></i> Breakfast included</li>
+										<li><i class="icon-check"></i> Price does not include VAT &amp; services fee</li>
+									</ul>
+									<p><a class="btn btn-primary btn-book">Book now!</a></p>
+								</div>
+							</div>
+							<div class="item">
+								<a href="images/room-2.jpg" class="room image-popup-link" style="background-image: url(images/room-2.jpg);"></a>
+								<div class="desc text-center">
+									<span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
+									<h3><a href="rooms-suites.html">Double Room</a></h3>
+									<p class="price">
+										<span class="currency">$</span>
+										<span class="price-room">199</span>
+										<span class="per">/ per night</span>
+									</p>
+									<ul>
+										<li><i class="icon-check"></i> Perfect for traveling couples</li>
+										<li><i class="icon-check"></i> Breakfast included</li>
+										<li><i class="icon-check"></i> Price does not include VAT &amp; services fee</li>
+									</ul>
+									<p><a class="btn btn-primary btn-book">Book now!</a></p>
+								</div>
+							</div>
+							<div class="item">
+								<a href="images/room-3.jpg" class="room image-popup-link" style="background-image: url(images/room-3.jpg);"></a>
+								<div class="desc text-center">
+									<span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
+									<h3><a href="rooms-suites.html">Family Room</a></h3>
+									<p class="price">
+										<span class="currency">$</span>
+										<span class="price-room">249</span>
+										<span class="per">/ per night</span>
+									</p>
+									<ul>
+										<li><i class="icon-check"></i> Two double beds</li>
+										<li><i class="icon-check"></i> Babysitting facilities</li>
+										<li><i class="icon-check"></i> 1 free bed available on request</li>
+									</ul>
+									<p><a class="btn btn-primary btn-book">Book now!</a></p>
+								</div>
+							</div>
+							<div class="item">
+								<a href="images/room-4.jpg" class="room image-popup-link" style="background-image: url(images/room-4.jpg);"></a>
+								<div class="desc text-center">
+									<span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
+									<h3><a href="rooms-suites.html">Classic Double Room</a></h3>
+									<p class="price">
+										<span class="currency">$</span>
+										<span class="price-room">150</span>
+										<span class="per">/ per night</span>
+									</p>
+									<ul>
+										<li><i class="icon-check"></i> Only 10 rooms are available</li>
+										<li><i class="icon-check"></i> Breakfast included</li>
+										<li><i class="icon-check"></i> Price does not include VAT &amp; services fee</li>
+									</ul>
+									<p><a class="btn btn-primary btn-book">Book now!</a></p>
+								</div>
+							</div>
+							<div class="item">
+								<a href="images/room-5.jpg" class="room image-popup-link" style="background-image: url(images/room-5.jpg);"></a>
+								<div class="desc text-center">
+									<span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
+									<h3><a href="rooms-suites.html">Superior Double Room</a></h3>
+									<p class="price">
+										<span class="currency">$</span>
+										<span class="price-room">200</span>
+										<span class="per">/ per night</span>
+									</p>
+									<ul>
+										<li><i class="icon-check"></i> Perfect for traveling couples</li>
+										<li><i class="icon-check"></i> Breakfast included</li>
+										<li><i class="icon-check"></i> Price does not include VAT &amp; services fee</li>
+									</ul>
+									<p><a class="btn btn-primary btn-book">Book now!</a></p>
+								</div>
+							</div>
+							<div class="item">
+								<a href="images/room-6.jpg" class="room image-popup-link" style="background-image: url(images/room-6.jpg);"></a>
+								<div class="desc text-center">
+									<span class="rate-star"><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full full"></i><i class="icon-star-full"></i></span>
+									<h3><a href="rooms-suites.html">Superior Family Room</a></h3>
+									<p class="price">
+										<span class="currency"><small>$</small></span>
+										<span class="price-room">299</span>
+										<span class="per">/ per night</span>
+									</p>
+									<ul>
+										<li><i class="icon-check"></i> Perfect for traveling couples</li>
+										<li><i class="icon-check"></i> Breakfast included</li>
+										<li><i class="icon-check"></i> Price does not include VAT &amp; services fee</li>
+									</ul>
+									<p><a class="btn btn-primary btn-book">Book now!</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 text-center animate-box">
+						<a href="#">View all rooms <i class="icon-arrow-right3"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+ -->
+
+
+
+
+
+
+ <!-- Esto es para los precios -->
+
+<!-- 
+		<div id="colorlib-dining-bar">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
+						<h2>Servivio &amp; Ejecutivo</h2>
+						<p>Para hacer vuelos de negocios.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="diningbar-flex">
+						<div class="half animate-box">
+							<ul class="nav nav-tabs text-center" role="tablist">
+								<li role="presentation" class="active"><a href="#mains" aria-controls="mains" role="tab" data-toggle="tab">Aerolineas</a></li>
+								<li role="presentation"><a href="#desserts" aria-controls="desserts" role="tab" data-toggle="tab">Desserts</a></li>
+								<li role="presentation"><a href="#drinks" aria-controls="drinks" role="tab" data-toggle="tab">Drinks</a></li>
+							</ul>
+
+
+			         
+			            <div class="tab-content">
+								<div role="tabpanel" class="tab-pane active" id="mains">
+									<div class="row">
+										<div class="col-md-12">
+											<ul class="menu-dish">
+							              <li>
+							                <figure class="image"><img src="images/menu-1.jpg" alt="Free Bootstrap Template by colorlib.com"></figure>
+							                <div class="text">
+							                  <span class="price">$25.99</span>
+							                  <h3>Grilled Pork</h3>
+							                  <p class="cat">Meat / Potatoes / Rice</p>
+							                </div>
+							              </li>
+							              <li>
+							                <figure class="image"><img src="images/menu-2.jpg" alt="Free Bootstrap Template by colorlib.com"></figure>
+							                <div class="text">
+							                  <span class="price">$30.99</span>
+							                  <h3>Tuna Roast Source</h3>
+							                  <p class="cat">Tuna / Potatoes / Rice</p>
+							                </div>
+							              </li>
+							              <li>
+							                <figure class="image"><img src="images/menu-3.jpg" alt="Free Bootstrap Template by colorlib.com"></figure>
+							                <div class="text">
+							                  <span class="price">$40.00</span>
+							                  <h3>Roast Beef (4 sticks)</h3>
+							                  <p class="cat">Crab / Potatoes / Rice</p>
+							                </div>
+							              </li>
+							              <li>
+							                <figure class="image"><img src="images/menu-4.jpg" alt="Free Bootstrap Template by colorlib.com"></figure>
+							                <div class="text">
+							                  <span class="price">$20.50</span>
+							                  <h3>Salted Fried Chicken</h3>
+							                  <p class="cat">Crab / Potatoes / Rice</p>
+							                </div>
+							              </li>
+							            </ul>
+										</div>
+									</div>
+								</div>
+
+								<div role="tabpanel" class="tab-pane" id="desserts">
+									<div class="row">
+										<div class="col-md-12">
+											<ul class="menu-dish">
+							              <li>
+							                <figure class="image"><img src="images/menu-1.jpg" alt="Free Bootstrap Template by colorlib.com"></figure>
+							                <div class="text">
+							                  <span class="price">$39.90</span>
+							                  <h3>Fried Potatoes with Garlic</h3>
+							                  <p class="cat">Viggies / Potatoes / Rice</p>
+							                </div>
+							              </li>
+							              <li>
+							                <figure class="image"><img src="images/menu-3.jpg" alt="Free Bootstrap Template by colorlib.com"></figure>
+							                <div class="text">
+							                  <span class="price">$20.99</span>
+							                  <h3>Tuna Roast Source</h3>
+							                  <p class="cat">Tuna / Potatoes / Rice</p>
+							                </div>
+							              </li>
+							              <li>
+							                <figure class="image"><img src="images/menu-3.jpg" alt="Free Bootstrap Template by colorlib.com"></figure>
+							                <div class="text">
+							                  <span class="price">$50.00</span>
+							                  <h3>Roast Beef (4 sticks)</h3>
+							                  <p class="cat">Crab / Potatoes / Rice</p>
+							                </div>
+							              </li>
+							              <li>
+							                <figure class="image"><img src="images/menu-4.jpg" alt="Free Bootstrap Template by colorlib.com"></figure>
+							                <div class="text">
+							                  <span class="price">$29.00</span>
+							                  <h3>Salted Fried Chicken</h3>
+							                  <p class="cat">Crab / Potatoes / Rice</p>
+							                </div>
+							              </li>
+							            </ul>
+										</div>
+									</div>
+								</div>
+
+								<div role="tabpanel" class="tab-pane" id="drinks">
+									<div class="row">
+										<div class="col-md-12">
+											<ul class="menu-dish">
+							              <li>
+							                <figure class="image"><img src="images/menu-8.jpg" alt="Free Bootstrap Template by colorlib.com"></figure>
+							                <div class="text">
+							                  <span class="price">$25.00</span>
+							                  <h3>Fried Potatoes with Garlic</h3>
+							                  <p class="cat">Viggies / Potatoes / Rice</p>
+							                </div>
+							              </li>
+							              <li>
+							                <figure class="image"><img src="images/menu-9.jpg" alt="Free Bootstrap Template by colorlib.com"></figure>
+							                <div class="text">
+							                  <span class="price">$20.50</span>
+							                  <h3>Tuna Roast Source</h3>
+							                  <p class="cat">Tuna / Potatoes / Rice</p>
+							                </div>
+							              </li>
+							              <li>
+							                <figure class="image"><img src="images/menu-3.jpg" alt="Free Bootstrap Template by colorlib.com"></figure>
+							                <div class="text">
+							                  <span class="price">$30.00</span>
+							                  <h3>Roast Beef (4 sticks)</h3>
+							                  <p class="cat">Crab / Potatoes / Rice</p>
+							                </div>
+							              </li>
+							              <li>
+							                <figure class="image"><img src="images/menu-4.jpg" alt="Free Bootstrap Template by colorlib.com"></figure>
+							                <div class="text">
+							                  <span class="price">$29.99</span>
+							                  <h3>Salted Fried Chicken</h3>
+							                  <p class="cat">Crab / Potatoes / Rice</p>
+							                </div>
+							              </li>
+							            </ul>
+										</div>
+									</div>
+								</div>
+			            </div>
+
+
+			         </div>
+
+
+			         <div class="half diningbar-img" style="background-image: url(images/cover_img_1.jpg);"></div>
+
+
+
+			      </div>
+			   </div>
+	      </div>
+		</div>
+
+-->
+
+		<div id="colorlib-blog">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
+						<h2>Servivio &amp; Ejecutivo</h2>
+						<p>Para hacer vuelos de negocios.</p>
+					</div>
+				</div>
+				<div class="blog-flex">
+					<div class="video colorlib-video" style="background-image: url(images/blog-3.jpg);">
+						<a href="https://vimeo.com/11456420" class="popup-vimeo"><i class="icon-video"></i></a>
+						<div class="overlay"></div>
+					</div>
+					<div class="blog-entry">
+						<div class="row">
+							<div class="col-md-12 animate-box">
+								<a href="blog.html" class="blog-post">
+									<span class="img" style="background-image: url(images/blog-1.jpg);"></span>
+									<div class="desc">
+										<span class="date">agosto 14, 2018</span>
+										<h3>Perú como uno de los mejores paises para hacer negocios.</h3>
+										<span class="cat">Leer mas</span>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-12 animate-box">
+								<a href="blog.html" class="blog-post">
+									<span class="img" style="background-image: url(images/blog-2.jpg);"></span>
+									<div class="desc">
+										<span class="date">julio 14, 2018</span>
+										<h3>Cómo elegie los menjores destinos para las vacaciones.</h3>
+										<span class="cat">Activities</span>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-12 animate-box">
+								<a href="blog.html" class="blog-post">
+									<span class="img" style="background-image: url(images/blog-3.jpg);"></span>
+									<div class="desc">
+										<span class="date">enero 14, 2018</span>
+										<h3>Programa un vuelo rapidamente</h3>
+										<span class="cat">Leer mas</span>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-12 animate-box text-right">
+								<a href="#">Ver mas articulos <i class="icon-arrow-right3"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="colorlib-testimony" class="colorlib-light-grey">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
+						<h2>Clientes Satisfechos</h2>
+						<p>Me ayudaron a programar rápidamente mi vuelo, gracias.</p>
+					</div>
+				</div>
+				<div class="row">
+				<div class="col-md-4 animate-box">
+					<div class="testimony text-center">
+						<span class="img-user" style="background-image: url(images/person2.jpg);"></span>
+						<span class="user">Brian Antonio</span>
+						<small>Satifecho</small>
+						<blockquote>
+							<p></i>Me gusto el destino, me hubiese gusdo quedarme mas tiempo.</p>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="testimony text-center">
+						<span class="img-user" style="background-image: url(images/person1.jpg);"></span>
+						<span class="user">Natalia Miller</span>
+						<small>Lo recomiendo</small>
+						<blockquote>
+							<p></i>Que fácil fue viajar a un pais lejano, no pense que fuese cómodo.</p>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-md-4 animate-box">
+					<div class="testimony text-center">
+						<span class="img-user" style="background-image: url(images/person3.jpg);"></span>
+						<span class="user">Shara Jones</span>
+						<small>Me gusta viajar</small>
+						<blockquote>
+							<p></i>Desde la primera vez que viaje disfrute, ahora me es muy familiar.</p>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+	
+		<div id="colorlib-subscribe" style="background-image: url(images/img_bg_2.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-md-offset-3 text-center colorlib-heading animate-box">
+						<span><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i><i class="icon-star-full"></i></span>
+						<h2>Registrate para nuestros boletines</h2>
+						<p>Obten ofertas y descuentos especiales</p>
+						<form class="form-inline qbstp-header-subscribe">
+							<div class="row">
+								<div class="col-md-12 col-md-offset-0">
+									<div class="form-group">
+										<input type="text" class="form-control" id="email" placeholder="Ingresa tu email">
+										<button type="submit" class="btn btn-primary">Suscribete</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer id="colorlib-footer" role="contentinfo">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-3 colorlib-widget">
+						<h4>Dseos Travel</h4>
+						<p>Atrevete a viajar </p>
+						<p>
+							<ul class="colorlib-social-icons">
+								<li><a href="#"><i class="icon-twitter"></i></a></li>
+								<li><a href="#"><i class="icon-facebook"></i></a></li>
+								<li><a href="#"><i class="icon-linkedin"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="col-md-3 colorlib-widget">
+						<h4>Links</h4>
+						<p>
+							<ul class="colorlib-footer-links">
+								<li><a href="#">Documentación</a></li>
+								<li><a href="#">Comida &amp; Bebida</a></li>
+								<li><a href="#">Restaurantes</a></li>
+								<li><a href="#">Playas &amp; Hoteles</a></li>
+							</ul>
+						</p>
+					</div>
+					<div class="col-md-3">
+						<h4>Articulos recientes</h4>
+						<ul class="colorlib-footer-links">
+							<li><a href="#">Los destinos mas pedidos.</a></li>
+							<li><a href="#">Recomendaciones para el viaje.</a></li>
+							<li><a href="#">Nuevas ciudades de interes</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-3 col-md-push-1">
+						<h4>Informacion de contacto</h4>
+						<ul class="colorlib-footer-links">
+							<li>Jr. Curazao 388 - Urbanizacion Santa Patricia - La Molina - Lima - Perú <br> Ofinina Principal</li>
+							<li><a href="tel://1234567920">+51971410090 +51975585058</a></li>
+							<li><a href="mailto:deseos.viajes@gmail.com">dseostravel@gmail.com</a></li>
+							<li><a href="http://dseostravel.com">dseostravel.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p>
+							<small class="block">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="icon-heart3" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+</small> 
+							<small class="block">Carlos<a href="http://unsplash.com/" target="_blank">Emaus</a></small>
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Date Picker -->
+	<script src="js/bootstrap-datepicker.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+

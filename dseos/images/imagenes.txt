@@ -1,0 +1,4 @@
+person1.jpg 724x704
+blog-3.jpg 800x533
+amenities-2.jpg 800x533
+img_bg_1.jpg 1300x867
